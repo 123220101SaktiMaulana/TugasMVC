@@ -15,18 +15,18 @@ import javax.swing.*;
  * @author Aibra
  */
 public class EditDataDosen extends JFrame{
-    JLabel header = new JLabel("Edit Mahasiswa");
+    JLabel header = new JLabel("Edit Dosen");
     JLabel labelInputNama = new JLabel("Nama");
-    JLabel labelInputNidn = new JLabel("NIM");
+    JLabel labelInputNidn = new JLabel("NIDN");
     JTextField inputNama = new JTextField();
     JTextField inputnidn = new JTextField();
-    JButton tombolEdit = new JButton("Edit Mahasiswa");
+    JButton tombolEdit = new JButton("Edit Dosen");
     JButton tombolKembali = new JButton("Kembali");
     
     Controller.ControllerDosen controller;
     
     public EditDataDosen(ModelDosen Dosen) {
-        setTitle("Edit Mahasiswa");
+        setTitle("Edit Dosen");
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
